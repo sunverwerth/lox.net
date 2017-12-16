@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EB5A16E1-3D82-43A3-9873-44A36105A064}</ProjectGuid>
+    <ProjectGuid>{3EDA7A84-F804-46E1-BBCF-06E49B77F4AC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lox.net</RootNamespace>
-    <AssemblyName>Lox.net</AssemblyName>
+    <RootNamespace>GenerateAst</RootNamespace>
+    <AssemblyName>GenerateAst</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AstPrinter.cs" />
-    <Compile Include="Expr.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scanner.cs" />
-    <Compile Include="Token.cs" />
-    <Compile Include="TokenType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
